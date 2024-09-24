@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import tiktoken
+import streamlit as st
 
 if load_dotenv('.env'):
    #for local development
